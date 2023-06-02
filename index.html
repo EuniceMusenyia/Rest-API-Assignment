@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GADGET</title>
+    <title>Gadget Devices</title>
 </head>
 <link rel="stylesheet" href="styles.css">
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,300;1,400&family=Playfair+Display&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
 <body>
     <div>
     <div>
@@ -37,10 +41,10 @@
     <div class="categorytext">
         <div>
         <h3>Your Trusted Gadgets<br>device partner</h3>
-        <p>there are many variations of passages of lorem ipsum<br>
+        <p>There are many variations of passages of lorem ipsum<br>
         available, but the majority have suffered alteration</p>
-        <button>order Now</button>
-        <button>Explore More</button>
+        <button id="BTNORDER">Order Now</button>
+        <button id="BTN">Explore More</button>
     </div>
     <div><img id="par" src="images/gadgets-removebg-preview_480.png" alt=""></div>
     </div>
@@ -81,14 +85,37 @@
        <div id="products">
     </div>
 </div>
-    <div class="productsimages">
+
+<div class="product">
+    <div id="product1">
+        <div>
+        <h1>NEW 2023<br>
+        PRODUCT</h1>
+        <p>Lorem ipsum dolor <br>
+            sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor <br>
+                sit amet consectetur adipisicing elit. </p>
+            </div>
+            <img id="hd" src="images/headphones_480.png" alt="" srcset="">
+    </div>
+    <div id="product2">
+        <div>
+        <h1>BE A<br> PRO</h1>
+        <p>learning from beginning</p>
+        <h4>ONILINE <br> TRAINING</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, dolore!</p>
+    </div>
+    <img src="images/camera-removebg-preview_360.png" alt="" srcset="">
+    </div>
+</div>
+    <!-- <div class="productsimages">
         <img id="img" src="images/page1_480.png" alt="">
         <img  id="img" src="images/page2_480.png" alt="">
-    </div>
+    </div> -->
     <div  class="phones">
-        <div>
-        <h3>Next level smart phone<br>
-        controller on <span>70% off</span></h3>
+        <div id="phonetxt">
+        <h1 id="phonetxt1">Next level smart phone<br>
+        controller on <span id="off">70% off</span></h1>
     
         <p>Design for competitive gaming with microswitch <br>
         buttons,analog triggers and programable macros</p>
@@ -97,7 +124,7 @@
     </div>
     <div class="text">
         <div id="text">
-            <h3>Testimonial</h3>
+            <h1 style="font-style: italic;">Testimonials</h1>
             <p>Amet minim molit non deserunt ullamco est sit akliqua dolor do amet sint.</p>
 
         </div>
@@ -118,19 +145,28 @@
             <img id="TEXT1IMG" src="./images/line-removebg-preview (1).png" alt="">
     </div>
     </div>
+
+    <div class="line-container">
+        <div class="line"></div>
+      </div>
+    <br><br>
+    <div class="yellow">
+        <div class="sub">
+            <h1>Subscribe NewLetter</h1>
+        </div>
+        <div class="email">
+            <input type="text" placeholder="Email Address" class="mail" > <i class='bx bx-send'></i>
+        </div>
+        <div class="emoji">
+            <i class='bx bx-headphone' ></i><span>Call us 24/7</span><br>&nbsp;&nbsp;&nbsp; (207)-555-0119
+        </div>
+    </div>
+
     <div id="footer">
-        <div id="foot">
-            <h5>Subscribe newsletter</h5>
-            <button id="footerbutton">Email Address   <ion-icon name="send-outline"></ion-icon></button>
-            <div id="Contact">
-            <ion-icon id="headset" name="headset-outline"></ion-icon  >
-            <p>Call us 24/77<br>
-            (207)555-0119</p>
-        </div>
-        </div>
+     
             <div class="Footer">
                 <div>
-                <h6>Smart <span>Gadgets</span></h6>
+                <h2>Smart <span>Gadgets</span></h2>
                 <p>6391 Elgin St. Celina ,Debwana</p>
 
             </div>
